@@ -1,0 +1,405 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Co-labora</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" > </script>
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+            <![endif]-->
+            
+           <!-- header-start -->
+     <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="index.html">
+                                    <img src="img/Co-Labora_logo.png" width="166" height="100">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu  d-none d-lg-block text-center">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="index.html">Inicio</a></li>
+                                        <li><a href="service.html">Servicios</a></li>
+                                        <li><a href="contact.html">Contacto</a></li>
+                                        <li><a href="#">Registrate <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="Formulario_Usuario.html">Usuario</a></li>
+                                                <li><a href="Formulario_empresa.html">Empresa</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Login <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="http://proyectosinformaticatnl.ceti.mx/pestenegra/dashboard/index.html">Usuario</a></li>
+                                                <li><a href="http://proyectosinformaticatnl.ceti.mx/pestenegra/dashboard/login-empresa.html">Empresa</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                     
+                            
+                             
+                               
+                         
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+    <!-- bradcam_area  -->
+    
+    
+    <div class="bradcam_area breadcam_bg_3">
+        <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="slider_text">
+                            <h3 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                                Usuario
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- /bradcam_area  -->
+        
+        
+        <div data-scroll-index="0" class="get_in_tauch_area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section_title text-center mb-90">
+                            <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Formulario Usuario</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="touch_form">
+                    <form id="create-usuario" onsubmit="return false">
+                        <div class="alert alert-danger" id="alerta" style="display: none;">Falta de Datos</div>
+                               
+                                <div class="alert alert-danger" id="alerta2" style="display: none;">error de solicitud</div>
+                                <div class="alert alert-success" id="alerta3" style="display: none;">Envio exitoso</div>
+                                <input type="hidden" id="latitud" name="latitud">   
+                                <input type="hidden" id="longitud" name="longitud">
+                    <div class="row">
+                            
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                    <input name="nombre_usuario" id="nombre_usuario" type="text" placeholder="Nombre*" >
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                    <input name="nombreP_usuario" id="nombreP_usuario" type="text" placeholder="Apellido Paterno*" >
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <input  name="nombreM_usuario" id="nombreM_usuario" type="text" placeholder="Apellido Materno*" >
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <input  name="direccion_usuario" id="direccion_usuario" type="text" placeholder="Direccion*" >
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <input  name="nExt_usuario" id="nExt_usuario" type="text" placeholder="Numero Exterior*" >
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <input name="nInt_usuario" id="nInt_usuario" type="text" placeholder="Numero Interior" >
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                    <input  name="cp_usuario" id="cp_usuario" type="text" placeholder="cp*" >
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                    <input onkeyup="muestraboton()" name="contra_usuario" id="contra_usuario" type="password" placeholder="Contraseña" >
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                    <input name="mail_usuario" id="mail_usuario" type="email" placeholder="email*" >
+                                </div>
+                            </div> 
+                            <div class="col-md-6">
+                                <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                    <label>Estado de la República*</label>
+                                    <select id="estado_usuarios" name="estado_usuarios">
+                                        <option value="no">Seleccione uno...</option>
+                                        <option value="Aguascalientes">Aguascalientes</option>
+                                        <option value="Baja California">Baja California</option>
+                                        <option value="Baja California Sur">Baja California Sur</option>
+                                        <option value="Campeche">Campeche</option>
+                                        <option value="Chiapas">Chiapas</option>
+                                        <option value="Chihuahua">Chihuahua</option>
+                                        <option value="Coahuila">Coahuila</option>
+                                        <option value="Colima">Colima</option>
+                                        <option value="Distrito Federal">Distrito Federal</option>
+                                        <option value="Durango">Durango</option>
+                                        <option value="Estado de México">Estado de México</option>
+                                        <option value="Guanajuato">Guanajuato</option>
+                                        <option value="Guerrero">Guerrero</option>
+                                        <option value="Hidalgo">Hidalgo</option>
+                                        <option value="Jalisco">Jalisco</option>
+                                        <option value="Michoacán">Michoacán</option>
+                                        <option value="Morelos">Morelos</option>
+                                        <option value="Nayarit">Nayarit</option>
+                                        <option value="Nuevo León">Nuevo León</option>
+                                        <option value="Oaxaca">Oaxaca</option>
+                                        <option value="Puebla">Puebla</option>
+                                        <option value="Querétaro">Querétaro</option>
+                                        <option value="Quintana Roo">Quintana Roo</option>
+                                        <option value="San Luis Potosí">San Luis Potosí</option>
+                                        <option value="Sinaloa">Sinaloa</option>
+                                        <option value="Sonora">Sonora</option>
+                                        <option value="Tabasco">Tabasco</option>
+                                        <option value="Tamaulipas">Tamaulipas</option>
+                                        <option value="Tlaxcala">Tlaxcala</option>
+                                        <option value="Veracruz">Veracruz</option>
+                                        <option value="Yucatán">Yucatán</option>
+                                        <option value="Zacatecas">Zacatecas</option>
+                                    </select>
+                                </div>
+                            </div> 
+                            <div class="col-md-6">
+                                <div class="single_input_file wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                    <label> INE*</label>
+                                    <div>
+                                    </div>
+                                    <input name="ine_usuario" id="ine_usuario" type="file" >
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                    
+                                    <label > CV*</label>
+                                    
+                                    <div>
+                                    </div>
+                                    <input name="cv_usuario" id="cv_usuario" type="file" >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="submit_btn  "id="button"  style="display: block;">
+                                    <button class="boxed-btn3" name="create-usuario" type="btnguardar" value="Envio" id="create-usuario">Registrate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="footer_logo wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-9">
+                        <div class="menu_links">
+                            <ul>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s" href="#">About</a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s" href="#">Services</a></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="#">Portfolio</a></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.1s" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <div class="socail_links">
+                            <ul>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="#"> <i class="fa fa-twitter"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- link that opens popup -->
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+  
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG1PmPj3txd0ZWgtpkT6RZ9FvEls4wj8A&"
+    type="text/javascript"></script>
+   
+  
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+    $("#create-usuario").submit(function( event ) {
+    var form= document.getElementById('create-usuario');   
+  var direccion=document.getElementById('direccion_usuario').value;
+  var numero=document.getElementById('nExt_usuario').value;
+  var estado=document.getElementById('estado_usuarios').value;
+var nombre=document.getElementById('nombre_usuario').value;
+ var email=document.getElementById('mail_usuario').value;
+ var cv= document.getElementById('cv_usuario').value;
+ var ine= document.getElementById('ine_usuario').value;
+ var apellidop= document.getElementById('nombreP_usuario').value;
+ var apellidom= document.getElementById('nombreM_usuario').value;
+  var pass=document.getElementById('contra_usuario').value;
+  var cp=document.getElementById('cp_usuario').value;
+  //var address = 'cipriano Campos 939, jal';
+  
+  var geocoder = new google.maps.Geocoder();
+
+geocoder.geocode( { 'address': direccion +" "+ numero + "," + estado }, function(results, status) {
+if (status == google.maps.GeocoderStatus.OK) {
+  
+  
+    var latitude = results[0].geometry.location.lat();
+
+    var  longitude = results[0].geometry.location.lng();
+
+    
+     document.getElementById('latitud').value = latitude;
+     document.getElementById('longitud').value = longitude;
+     
+    console.log('La longitud es: ' + longitude + ', la latitud es: ' + latitude);
+   
+   }
+    if (direccion==""|| nombre==""||  cv==""||email=="" ||estado==""|| numero==""||ine==""||apellidop==""||apellidom==""||pass==""||cp=="") {
+                        document.getElementById('alerta').style.display="block";
+                      }else{
+                        document.getElementById('alerta').style.display="none";
+                      $.ajax({
+                          type: 'POST',
+                          url:  '../dashboard/php/subida.php',
+                         // data: 'nombre=' +nombre+'&descripcion=' +descripcion +'&vacantes=' +vacantes +'&direccion=' +direccion + '&numero_ext=' +numero_ext+ '&numero_int=' +numero_int + '&id_empresa=' +id_empresa,
+                         data: new FormData(form),
+                          contentType: false,
+                          processData: false,
+                          success     : function(response) {
+                              if (response == "success") {
+                                  console.log(response);
+                                  document.getElementById('alerta2').style.display="none";
+                                  document.getElementById('alerta3').style.display="block";
+                                  document.getElementById('button').style.display="none";
+  
+                              } else {
+                                 document.getElementById('alerta').style.display="none";
+                                  document.getElementById('alerta2').style.display="block";
+                              }
+                          }
+                      });
+                      }
+    
+}); 
+
+  
+                    
+  event.preventDefault();
+  
+  });
+  function muestraboton() {
+    document.getElementById('create-usuario').style.display="block";
+}
+      </script>
+
+

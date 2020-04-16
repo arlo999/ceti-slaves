@@ -1,0 +1,10 @@
+{"1":"Puntualidad",
+"2":"Compromiso",
+"3":"Electronica Analogica",
+"4":"Dialogo",
+"5":"Respeto",
+"6":"Liderazgo",
+"7":"Colaboración",
+"8":"Disciplina",
+"9":"Justicia",
+"10":"Entusiasta"}
